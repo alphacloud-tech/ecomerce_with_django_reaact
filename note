@@ -1,0 +1,20 @@
+virtualenv urname // to create virtual environment
+urname\scripts\activate  // to activate virtual environment
+pip install django  // to install django
+django-admin startproject urname  // to create project 
+django-admin startapp urname  // to create app 
+python manage.py runserver  // to start server
+
+
+redux is a state management library. note its nt spwcific
+to react it cn be use with angular
+
+redux thunk : this allow us to make asynchronuous request
+from our action creators. its lk middleware to our startproject
+
+redux dev tools: dis is library that actually going to 
+allow us to connect our store to d browser extention
+ 
+
+ To use redux install:
+ npm install redux react-redux redux-thunk redux-devtools-extension
